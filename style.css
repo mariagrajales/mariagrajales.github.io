@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nameMusic {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contain-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain-Reproductor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: rgba(17, 13, 115, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+.containButton {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.containButton > button {
+  font-size: 1.2rem;
+  width: 9vw;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="contain-main">
+    <div class="contain-Reproductor">
+        <h2 id="nameMusic">Nombre Cancion</h2>
+        <div class="containButton">
+            <button id="prevMusic">Atras</button>
+              <button id="nextMusic">Siguiente</button>
+           </div> 
+        <audio id="reproductor" controls>
+            <source src="./music/thundertrack.mp3" type="audio/mp3"  id="cancion-source">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+      
+    </div>
+</div>
+      <script type="module" src="./main.js"></script>
+</body>
+</html>
