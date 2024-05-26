@@ -1,0 +1,9 @@
+#Form_Home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.contain_table{
+    padding: 25px;
+}
